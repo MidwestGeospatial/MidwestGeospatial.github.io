@@ -2978,6 +2978,39 @@ input, select, textarea {
 		opacity: 1.0 !important;
 	}
 
+	/* Webmaps (stacked cards: title -> image -> description -> button) */
+	.webmaps-grid {
+		display: grid;
+		gap: 2.25em;
+	}
+
+	.webmap-card {
+		margin: 0;
+	}
+
+	.webmap-thumb {
+		display: block;
+		border-bottom: none; /* remove dotted underline from theme links */
+		border-radius: 0.35em;
+		overflow: hidden;
+		border: solid 2px #efefef;
+		background: #f7f7f7;
+	}
+
+	.webmap-thumb img {
+		width: 100%;
+		height: auto;
+		display: block;
+	}
+
+	.webmap-meta {
+		margin-top: 1em;
+	}
+
+	.webmap-meta p {
+		margin: 0.75em 0 1em 0;
+	}
+
 /* XLarge */
 
 	@media screen and (max-width: 1800px) {
