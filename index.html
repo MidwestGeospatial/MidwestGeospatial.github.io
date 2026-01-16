@@ -52,27 +52,53 @@
   </header>
   <p>A curated set of interactive maps hosted on GitHub Pages. Each map opens in a new tab.</p>
 
-  <div class="webmaps-grid">
-    <article class="webmap-card">
-      <h3>Boston Crime Hot Spot Analysis</h3>
-      <a class="webmap-thumb" href="webmaps/boston_crime_hotspot/" target="_blank" rel="noopener noreferrer">
-        <img src="images/webmaps/boston_crime_hotspot.png" alt="Preview of Boston Crime Hot Spot Analysis web map" loading="lazy" />
-      </a>
-      <div class="webmap-meta">
-        <p>Spatial hot spot analysis identifying statistically significant clusters of crime intensity across Boston, visualized as an interactive hex-based map with exploratory popups.</p>
-        <ul class="actions">
-          <li><a class="button" href="webmaps/boston_crime_hotspot/" target="_blank" rel="noopener noreferrer">View Web Map</a></li>
-        </ul>
-      </div>
-    </article>
+<div class="webmaps-grid">
+  <article class="webmap-card">
+    <h3>Boston Crime Hot Spot Analysis (Patrol Shift Planning)</h3>
+
+    <a class="webmap-thumb" href="webmaps/boston_crime_hotspot/" target="_blank" rel="noopener noreferrer">
+      <img
+        src="images/webmaps/boston_crime_hotspot.png"
+        alt="Preview of Boston Crime Hot Spot Analysis web map"
+        loading="lazy"
+      />
+    </a>
+
+    <div class="webmap-meta">
+      <p>
+        This project identifies statistically significant clusters of reported incidents across Boston
+        and translates them into actionable patrol-focus areas. The workflow produces hotspot maps and
+        exports that can support shift planning, resource allocation, and targeted outreach. Built in R
+        with spatial statistics and reproducible mapping outputs.
+      </p>
+
+      <ul class="actions">
+        <li>
+          <a class="button" href="webmaps/boston_crime_hotspot/" target="_blank" rel="noopener noreferrer">
+            View Web Map
+          </a>
+        </li>
+      </ul>
+    </div>
+  </article>
+</div>
+
 
     <article class="webmap-card">
-      <h3>Maine Flood Risk</h3>
+      <h3>Portland, Maine Flood Risk</h3>
       <a class="webmap-thumb" href="webmaps/maine_flood_risk/" target="_blank" rel="noopener noreferrer">
         <img src="images/webmaps/maine_flood_risk.png" alt="Preview of Maine Flood Risk web map" loading="lazy" />
       </a>
       <div class="webmap-meta">
-        <p>Interactive flood-risk exploration map highlighting areas of elevated exposure and localized risk patterns across Maine.</p>
+<p>
+  This project maps flood risk exposure in the Portland, Maine area and translates it into decision-ready
+  outputs for planning and mitigation. Where flooding is most likely is only half the story—what matters is
+  who and what is in the path. The workflow pairs flood-risk surfaces with population and context layers to
+  highlight where impacts are most likely and where interventions can be prioritized. Built in R with
+  reproducible geospatial analysis and web-ready map exports designed for briefings and stakeholder discussions;
+  when appropriate data are available, the same approach can be refined to the parcel level for property-specific insight.
+</p>
+
         <ul class="actions">
           <li><a class="button" href="webmaps/maine_flood_risk/" target="_blank" rel="noopener noreferrer">View Web Map</a></li>
         </ul>
@@ -85,7 +111,12 @@
         <img src="images/webmaps/dc_housing_affordability.png" alt="Preview of DC Housing Affordability web map" loading="lazy" />
       </a>
       <div class="webmap-meta">
-        <p>Neighborhood-level housing affordability patterns in Washington, DC with interactive inspection of local context.</p>
+<p>
+  This project maps housing affordability patterns across Washington, DC and converts them into decision-ready
+  insights for planning, policy, and site selection. The workflow integrates housing cost indicators with
+  neighborhood context to highlight where affordability pressure is highest and where interventions or
+  investments may be most impactful. Built in R with reproducible geospatial analysis and web-ready map exports.
+</p>
         <ul class="actions">
           <li><a class="button" href="webmaps/dc_housing_affordability/" target="_blank" rel="noopener noreferrer">View Web Map</a></li>
         </ul>
@@ -98,7 +129,13 @@
         <img src="images/webmaps/nyc_traffic.png" alt="Preview of NYC Traffic web map" loading="lazy" />
       </a>
       <div class="webmap-meta">
-        <p>Citywide traffic visualization for NYC designed for quick exploration of spatial differences and local conditions.</p>
+<p>
+  This project uses spatial analysis to identify meaningful clusters and corridors associated with
+  pedestrian- and cyclist-involved vehicle crashes in New York City. The workflow supports filtering by
+  geography and crash characteristics and produces consistent interactive and static outputs suitable for
+  reporting and briefings.
+</p>
+
         <ul class="actions">
           <li><a class="button" href="webmaps/nyc_traffic/" target="_blank" rel="noopener noreferrer">View Web Map</a></li>
         </ul>
@@ -106,12 +143,17 @@
     </article>
 
     <article class="webmap-card">
-      <h3>Philly Violent Risk</h3>
+      <h3>Philadelphia Violent Crime Risk</h3>
       <a class="webmap-thumb" href="webmaps/philly_violent_risk/" target="_blank" rel="noopener noreferrer">
         <img src="images/webmaps/philly_violent_risk.png" alt="Preview of Philly Violent Risk web map" loading="lazy" />
       </a>
       <div class="webmap-meta">
-        <p>Risk-focused interactive map for Philadelphia highlighting areas of elevated violent incident concern.</p>
+<p>
+  This project applies a threshold-based risk mapping workflow to identify the top 30% of Philadelphia areas with
+  elevated violent crime risk. The approach emphasizes clear classification, spatial pattern interpretation, and
+  consistent outputs for reporting, with interactive and static map deliverables.
+</p>
+
         <ul class="actions">
           <li><a class="button" href="webmaps/philly_violent_risk/" target="_blank" rel="noopener noreferrer">View Web Map</a></li>
         </ul>
